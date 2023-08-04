@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {  InputTextModule } from "primeng/inputtext";
+import { FormsModule } from "@angular/forms";
+import { SliderModule } from 'primeng/slider';
+import { TableModule } from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -10,7 +14,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    InputTextModule,
+    SliderModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
